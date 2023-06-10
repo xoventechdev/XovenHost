@@ -18,7 +18,7 @@
 
 <body>
 
-    <!-- <div id="preloader">
+    <div id="preloader">
         <div class="preloader-wrap">
             <img src="assets/img/logo.png" alt="logo" class="img-fluid" />
             <div class="preloader">
@@ -27,7 +27,7 @@
                 <i>.</i>
             </div>
         </div>
-    </div> -->
+    </div>
     
     <header id="header" class="header-main gradient-bg">
         <!--main header menu start-->

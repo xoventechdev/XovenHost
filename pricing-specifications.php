@@ -3,10 +3,7 @@ include_once('header.php');
 ?>
 
 
-
-
 <div class="main">
-
 <!--page header section start-->
 <section class="ptb-120 gradient-bg">
     <div class="container">

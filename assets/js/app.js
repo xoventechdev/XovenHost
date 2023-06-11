@@ -256,8 +256,10 @@
           success: function success(text) {
             if (text == "success") {
               formSuccess();
+              console.log(text);
             } else {
               submitMSG(false, text);
+              console.log(text);
             }
           }
         });

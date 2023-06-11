@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
                     <a href="#" class="d-block">
-                        <img src="assets/img/logo-white.png" alt="logo" class="img-fluid" />
+                        <img src="assets/img/logo.png" alt="logo" class="img-fluid" />
                     </a>
                     <br />
                     <p>
@@ -14,17 +14,17 @@
                     </p>
                     <ul class="list-inline social-list-default background-color social-hover-2 mt-2">
                         <li class="list-inline-item">
-                            <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/xovenhost"><i class="fab fa-facebook"></i></a>
                         </li>
-                        <li class="list-inline-item">
+                        <!-- <li class="list-inline-item">
                             <a class="youtube" href="#"><i class="fab fa-youtube"></i></a>
-                        </li>
+                        </li> -->
                         <li class="list-inline-item">
-                            <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/company/xovenhost"><i class="fab fa-linkedin-in"></i></a>
                         </li>
-                        <li class="list-inline-item">
+                        <!-- <li class="list-inline-item">
                             <a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="col-md-12 col-lg-8">
@@ -123,7 +123,7 @@
                 <div class="col-md-6 col-lg-7">
                     <div class="copyright-wrap small-text">
                         <p class="mb-0">
-                            &copy; ThemeTags Design Agency, All rights reserved
+                            &copy; XovenTech, All rights reserved
                         </p>
                     </div>
                 </div>

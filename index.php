@@ -1,706 +1,15 @@
 <?php
-
 include_once('header.php');
 ?>
 
 
 
 
-<!--offcanvas menu start-->
-<div class="offcanvas offcanvas-start" id="offcanvasLeft" tabindex="-1">
-            <div class="offcanvas-header border-bottom">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo-color.png" alt="logo" class="img-fluid" />
-                </a>
-                <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
-            </div>
-            <div class="offcanvas-body offcanvas-menu-wrap">
-                <!--offcanvas menu list start-->
-                <ul class="navbar-nav">
-                    <!--home item start-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                            Home
-                        </a>
-                        <div class="dropdown-menu p-0">
-                            <div class="row g-0">
-                                <div class="col-12 gray-light-bg">
-                                    <div class="menu-item-wrap p-4">
-                                        <h6>#1 Web Hosting Company</h6>
-                                        <p>
-                                            Get your website, web store or application online using our
-                                            reliable and fast hosting.
-                                        </p>
-                                        <ul class="list-unstyled content-feature-list mb-2">
-                                            <li>
-                                                <i class="fa fa-check-circle text-success pe-2"></i>
-                                                Managed cloud
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check-circle text-success pe-2"></i>
-                                                Business continuity
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check-circle text-success pe-2"></i>
-                                                IT/Cloud consultancy
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check-circle text-success pe-2"></i>
-                                                Load and stress testing
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check-circle text-success pe-2"></i>
-                                                Managed Kubernetes
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check-circle text-success pe-2"></i>
-                                                Managed Multi-datacenter
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row no-gutters p-4">
-                                        <div class="col-sm-12">
-                                            <span class="sub-menu-title">Home different style</span>
-                                            <ul class="home-demo-list">
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa fa-hard-drive me-2"></i>
-                                                        Home Default
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-image.html">
-                                                        <i class="fa fa-file-image me-2"></i>
-                                                        Home Image
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-slider.html">
-                                                        <i class="fa fa-clone me-2"></i>
-                                                        Home Content Slider
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-gaming.html">
-                                                        <i class="fa fa-gem me-2"></i>
-                                                        Home Gaming Hosting
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-video.html">
-                                                        <i class="fa fa-file-video me-2"></i>
-                                                        Home Background Video
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-black-friday.html">
-                                                        <i class="fa fa-lightbulb me-2"></i>
-                                                        Home Black Friday Sale
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-black-friday-coming.html">
-                                                        <i class="fa fa-circle-dot me-2"></i>
-                                                        Home Black Friday Coming
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-top-navbar.html">
-                                                        <i class="fa fa-hard-drive me-2"></i>
-                                                        Home Top Navbar
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <!-- Mega Menu Banner -->
-                                    <div class="u-header__product-banner">
-                                        <div class="u-header__product-banner-content text-center text-white">
-                                            <div class="mb-4">
-                                                <h5 class="text-white">Get 25% Discount Start Now</h5>
-                                                <ul class="list-unstyled list-inline menu-countdown my-4">
-                                                    <li class="list-inline-item mb-0">
-                                                        <span
-                            class="counter-days border border-light fs-sm text-light p-2 rounded fw-medium"
-                          ></span>
-                                                    </li>
-                                                    <li class="list-inline-item mb-0">
-                                                        <span
-                            class="counter-hours border border-light fs-sm text-light p-2 rounded fw-medium"
-                          ></span>
-                                                    </li>
-                                                    <li class="list-inline-item mb-0">
-                                                        <span
-                            class="counter-minutes border border-light fs-sm text-light p-2 rounded fw-medium"
-                          ></span>
-                                                    </li>
-                                                    <li class="list-inline-item mb-0">
-                                                        <span
-                            class="counter-seconds border border-light fs-sm text-light p-2 rounded fw-medium"
-                          ></span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <a class="btn btn-tertiary mt-2" href="#">
-                                                Get start now
-                                                <span class="fa fa-arrow-right ps-2"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- End Mega Menu Banner -->
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <!--home item end-->
-
-                    <!--page item start-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
-                            Pages
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="about-us.html">About Us</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="offer-single-page.html">
-                                    Black Friday Single
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="terms-condition.html">
-                                    Terms & Condition
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="privacy-policy.html">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                                    Pricing
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="pricing-default.html">
-                                            Pricing Default
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="pricing-package.html">
-                                            Pricing Packages
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="pricing-web-hosting.html">
-                                            Web Hosting Packages
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="pricing-windows-hosting.html">
-                                            Windows Hosting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="pricing-comparision.html">
-                                            Pricing Comparison
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="pricing-specifications.html">
-                                            Pricing Specifications
-                                            <span class="badge bg-danger ms-auto">New</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="vps-pricing.html">
-                                            VPS Pricing
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                                    Blog
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="blog-details.html">
-                                            Blog Details
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                                    Specialty
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="domain-search-result.html">
-                                            Search Result
-                                            <span class="badge bg-success ms-2">New</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="cover-page.html">Cover Page</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="coming-soon.html">
-                                            Coming Soon
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="thank-you.html">Thank You</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="404.html">Error 404</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                                    Login and Signup
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="login.html">Login</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="sign-up.html">Signup</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="password-reset.html">
-                                            Recover Account
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--page item end-->
-
-                    <!--hosting item start-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                            Hosting
-                        </a>
-                        <div class="dropdown-menu p-0">
-                            <div class="row g-0">
-                                <div class="col-12">
-                                    <div class="menu-item-wrap py-0 p-md-3 p-lg-3">
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="shared-hosting.html">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="menu-item-icon pe-3">
-                                                        <i
-                            class="fa fa-server rounded-circle primary-bg"
-                          ></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <span class="u-header__promo-title">
-                            Shared Web Hosting
-                          </span>
-                                                        <small class="u-header__promo-text">
-                                                            Reliable quality Starting at
-                                                            <strong>$2.99</strong>
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="vps-hosting.html">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="menu-item-icon pe-3">
-                                                        <i class="fa fa-box rounded-circle accent-bg"></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <span class="u-header__promo-title">VPS Hosting</span>
-                                                        <small class="u-header__promo-text">
-                                                            Maintain Starting at
-                                                            <strong>$11.99</strong>
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="cloud-hosting.html">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="menu-item-icon pe-3">
-                                                        <i
-                            class="fa fa-cloud rounded-circle secondary-bg"
-                          ></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <span class="u-header__promo-title">
-                            Cloud Hosting
-                          </span>
-                                                        <small class="u-header__promo-text">
-                                                            Cloud Starting at
-                                                            <strong>$5.99/mo</strong>
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="menu-item-wrap py-0 p-md-3 p-lg-3">
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="email-hosting.html">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="menu-item-icon pe-3">
-                                                        <i
-                            class="fa fa-envelope rounded-circle twitter-bg"
-                          ></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <span class="u-header__promo-title">
-                            Email Hosting
-                          </span>
-                                                        <small class="u-header__promo-text">
-                                                            First Starting at
-                                                            <strong>$0.99/mo</strong>
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="windows-vps-hosting.html">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="menu-item-icon pe-3">
-                                                        <i
-                            class="fab fa-windows rounded-circle bg-success"
-                          ></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <span class="u-header__promo-title">
-                            Windows VPS Hosting
-                          </span>
-                                                        <small class="u-header__promo-text">
-                                                            Globally Starting at
-                                                            <strong>$9.99/mo</strong>
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="dedicated-server-hosting.html">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="menu-item-icon pe-3">
-                                                        <i
-                            class="fa fa-database rounded-circle dribbble-bg"
-                          ></i>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <span class="u-header__promo-title">
-                            Dedicated Server Hosting
-                          </span>
-                                                        <small class="u-header__promo-text">
-                                                            Conveniently Starting at
-                                                            <strong>$9.99/mo</strong>
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--application hosting start-->
-                            <div class="application-hosting text-white">
-                                <span
-                class="sub-menu-title text-lg-center text-md-center text-white mb-3"
-              >
-                Application For Hosting
-              </span>
-                                <ul class="application-hosting-list">
-                                    <li>
-                                        <a href="wp-hosting.html">
-                                            <img src="assets/img/icons/wordpress-icon-color.svg" alt="icon" />
-                                            WordPress Hosting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="joomla-hosting.html">
-                                            <img src="assets/img/icons/joomla-icon-color.svg" alt="icon" />
-                                            Joomla Hosting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="magento-hosting.html">
-                                            <img src="assets/img/icons/magento-icon-color.svg" alt="icon" />
-                                            Magento Hosting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="opencart-hosting.html">
-                                            <img src="assets/img/icons/opencart-icon-color.svg" alt="icon" />
-                                            Opencart Hosting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="prestashop-hosting.html">
-                                            <img src="assets/img/icons/prestashop-icon-color.svg" alt="icon" />
-                                            Prestashop Hosting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="drupal-hosting.html">
-                                            <img src="assets/img/icons/drupal-icon-color.svg" alt="icon" />
-                                            Drupal Hosting
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!--application hosting end-->
-                        </div>
-                    </li>
-                    <!--hosting item end-->
-
-                    <!--domain item start-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                            Domain
-                        </a>
-                        <div class="dropdown-menu p-0">
-                            <div class="row g-0">
-                                <div class="">
-                                    <div class="menu-item-wrap p-3">
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="domain-checker.html">
-                                                <div class="d-flex align-items-center pb-1">
-                                                    <i class="fa fa-globe me-2 color-primary"></i>
-                                                    <span class="u-header__promo-title">
-                          Domain Checker
-                        </span>
-                                                </div>
-                                                <small class="u-header__promo-text">
-                                                    Find the perfect domain for your business
-                                                </small>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="domain-transfer.html">
-                                                <div class="d-flex align-items-center pb-1">
-                                                    <i class="fa fa-exchange-alt me-2 color-accent"></i>
-                                                    <span class="u-header__promo-title">
-                          Domain Transfer
-                        </span>
-                                                </div>
-                                                <small class="u-header__promo-text">
-                                                    Transfer your domain easily
-                                                </small>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                        <!--menu title with subtitle and icon item start-->
-                                        <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="domain-registration.html">
-                                                <div class="d-flex align-items-center pb-1">
-                                                    <i class="fa fa-copyright me-2 instagram-color"></i>
-                                                    <span class="u-header__promo-title">
-                          Domain Registration
-                        </span>
-                                                </div>
-                                                <small class="u-header__promo-text">
-                                                    Register your domain name for lifetime
-                                                </small>
-                                            </a>
-                                        </div>
-                                        <!--menu title with subtitle and icon item end-->
-                                    </div>
-                                </div>
-                                <div class="gray-light-bg">
-                                    <div class="menu-item-wrap p-4">
-                                        <h6>#1 Web Hosting Company</h6>
-                                        <ul class="list-unstyled tech-feature-list">
-                                            <li class="py-1">
-                                                <small>
-                                                    <span
-                          class="fa fa-check-circle text-success me-2"
-                        ></span>
-                                                    <strong>Flexible</strong>
-                                                    Easy to Use Control Panel
-                                                </small>
-                                            </li>
-                                            <li class="py-1">
-                                                <small>
-                                                    <span
-                          class="fa fa-check-circle text-success me-2"
-                        ></span>
-                                                    <strong>99%</strong>
-                                                    Uptime Guarantee
-                                                </small>
-                                            </li>
-                                            <li class="py-1">
-                                                <small>
-                                                    <span
-                          class="fa fa-check-circle text-success me-2"
-                        ></span>
-                                                    <strong>45-Day</strong>
-                                                    Money-Back Guarantee
-                                                </small>
-                                            </li>
-                                            <li class="py-1">
-                                                <small>
-                                                    <span
-                          class="fa fa-check-circle text-success me-2"
-                        ></span>
-                                                    <strong>Free SSL</strong>
-                                                    Certificate Included
-                                                </small>
-                                            </li>
-                                        </ul>
-                                        <a class="btn btn-tertiary btn-block mt-3" href="#">
-                                            Learn More
-                                            <span class="fa fa-angle-right ms-2"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <!--domain item end-->
-
-                    <!--affiliate item start-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="affiliates.html">Affiliates</a>
-                    </li>
-                    <!--affiliate item end-->
-
-                    <!--company item start-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
-                            Company
-                        </a>
-                        <div class="dropdown-menu">
-                            <div class="row g-0">
-                                <div class="col-12">
-                                    <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="contact-us.html">
-                                            <div class="d-flex align-items-center">
-                                                <img class="menu-titile-icon" src="assets/img/chat-mobile.svg" alt="SVG" />
-                                                <div class="media-body">
-                                                    <span class="u-header__promo-title">Contact Us</span>
-                                                    <small class="u-header__promo-text">
-                                                        Face any problem contact with us
-                                                    </small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="about-us.html">
-                                            <div class="d-flex align-items-center">
-                                                <img class="menu-titile-icon" src="assets/img/community.svg" alt="SVG" />
-                                                <div class="media-body">
-                                                    <span class="u-header__promo-title">About Us</span>
-                                                    <small class="u-header__promo-text">
-                                                        We are leading hosting company
-                                                    </small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="partners.html">
-                                            <div class="d-flex align-items-center">
-                                                <img class="menu-titile-icon" src="assets/img/partner.svg" alt="SVG" />
-                                                <div class="media-body">
-                                                    <span class="u-header__promo-title">Our Partner</span>
-                                                    <small class="u-header__promo-text">
-                                                        We have trusted partners globally
-                                                    </small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="network.html">
-                                            <div class="d-flex align-items-center">
-                                                <img class="menu-titile-icon" src="assets/img/network.svg" alt="SVG" />
-                                                <div class="media-body">
-                                                    <span class="u-header__promo-title">Network</span>
-                                                    <small class="u-header__promo-text">
-                                                        Keep your data save and secure
-                                                    </small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="blog-grid.html">
-                                            <div class="d-flex align-items-center">
-                                                <img class="menu-titile-icon" src="assets/img/blog.svg" alt="SVG" />
-                                                <div class="media-body">
-                                                    <span class="u-header__promo-title">Company Blog</span>
-                                                    <small class="u-header__promo-text">
-                                                        Industry latest technology news & tips
-                                                    </small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <!--company item end-->
-
-                    <!--button start-->
-                    <li class="nav-item header-nav-last-item d-flex align-items-center mt-3">
-                        <a class="btn btn-tertiary animated-btn" href="https://whmcs.themetags.com/index.php?systpl=XovenHost&carttpl=themetags_cart" target="_blank">
-                            <span class="fa fa-user pe-2"></span>
-                            Client Area
-                        </a>
-                    </li>
-                    <!--button end-->
-                </ul>
-                <!--offcanvas menu list end-->
-            </div>
-        </div>
-        <!--offcanvas menu end-->
-    </header>
-    <!--header section end-->
-
     <div class="main">
 
         <!--hero section start-->
         <section class="hero-slider-section bg-image hero-equal-height ptb-120 dark-bg" data-overlay="8">
-            <div class="background-image-wraper" style="background: url('assets/img/hero-1.jpg')no-repeat center center / cover; opacity: 1;"></div>
+            <div class="background-image-wraper" style="background: url('assets/img/domain.webp')no-repeat center center / cover; opacity: 1;"></div>
             <div class="owl-carousel owl-theme hero-slider-one custom-dot dot-bottom-center">
                 <div class="item">
                     <div class="container">
@@ -930,10 +239,10 @@ include_once('header.php');
                                         </p>
                                     </li>
                                 </ul>
-                                <a href="pricing-specifications.html" class="mb-4 d-block read-more-link">Full specifications <i
+                                <a href="pricing-specifications.php" class="mb-4 d-block read-more-link">Full specifications <i
                 class="fa fa-arrow-right ps-2"></i>
                                 </a>
-                                <a href="#" class="btn btn-primary btn-block" target="_blank">Purchase Now</a>
+                                <a href="https://portal.xovenhost.com/cart.php?gid=1" class="btn btn-primary btn-block" target="_blank">Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -1007,10 +316,10 @@ include_once('header.php');
                                         </p>
                                     </li>
                                 </ul>
-                                <a href="pricing-specifications.html" class="mb-4 d-block read-more-link">Full specifications <i
+                                <a href="pricing-specifications.php" class="mb-4 d-block read-more-link">Full specifications <i
                 class="fa fa-arrow-right ps-2"></i>
                                 </a>
-                                <a href="#" class="btn btn-primary btn-block" target="_blank">Purchase Now</a>
+                                <a href="https://portal.xovenhost.com/cart.php?gid=1" class="btn btn-primary btn-block" target="_blank">Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -1084,10 +393,10 @@ include_once('header.php');
                                         </p>
                                     </li>
                                 </ul>
-                                <a href="pricing-specifications.html" class="mb-4 d-block read-more-link">Full specifications <i
+                                <a href="pricing-specifications.php" class="mb-4 d-block read-more-link">Full specifications <i
                 class="fa fa-arrow-right ps-2"></i>
                                 </a>
-                                <a href="#" class="btn btn-primary btn-block" target="_blank">Purchase Now</a>
+                                <a href="https://portal.xovenhost.com/cart.php?gid=1" class="btn btn-primary btn-block" target="_blank">Purchase Now</a>
                             </div>
                         </div>
                     </div>
@@ -1146,7 +455,7 @@ include_once('header.php');
                 <div class="row">
                     <div class="col-md-6 col-lg-4 mt-4">
                         <div class="application-icon-wrap p-5 bg-white rounded-3">
-                            <img src="assets/img/icons/wordpress-icon-color.svg" width="45" alt="icon" class="mb-4" />
+                            <img src="assets/img/wordpress-icon-color.svg" width="45" alt="icon" class="mb-4" />
                             <div class="application-content">
                                 <h3 class="h5">Wordpress Hosting</h3>
                                 <p>
@@ -1163,7 +472,7 @@ include_once('header.php');
                     </div>
                     <div class="col-md-6 col-lg-4 mt-4">
                         <div class="application-icon-wrap p-5 bg-white rounded-3">
-                            <img src="assets/img/icons/joomla-icon-color.svg" width="45" alt="icon" class="mb-4" />
+                            <img src="assets/img/joomla-icon-color.svg" width="45" alt="icon" class="mb-4" />
                             <div class="application-content">
                                 <h3 class="h5">Joomla Hosting</h3>
                                 <p>
@@ -1180,7 +489,7 @@ include_once('header.php');
                     </div>
                     <div class="col-md-6 col-lg-4 mt-4">
                         <div class="application-icon-wrap p-5 bg-white rounded-3">
-                            <img src="assets/img/icons/magento-icon-color.svg" width="45" alt="icon" class="mb-4" />
+                            <img src="assets/img/wordpress-icon-color.svg" width="45" alt="icon" class="mb-4" />
                             <div class="application-content">
                                 <h3 class="h5">Megento Hosting</h3>
                                 <p>
@@ -1197,41 +506,45 @@ include_once('header.php');
                     </div>
                     <div class="col-md-6 col-lg-4 mt-4">
                         <div class="application-icon-wrap p-5 bg-white rounded-3">
-                            <img src="assets/img/icons/opencart-icon-color.svg" width="45" alt="icon" class="mb-4" />
-                            <div class="application-content">
-                                <h3 class="h5">OpenCart Hosting</h3>
-                                <p>Fully Optimize and perfect OpenCart hosting provider.</p>
-                                <div class="read-more-link">
-                                    <a href="#" target="_blank" class="d-inline-flex align-items-center btn btn-sm">
-                                        <span>Read More</span>
-                                        <i class="fa fa-arrow-right ml-2"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4">
-                        <div class="application-icon-wrap p-5 bg-white rounded-3">
-                            <img src="assets/img/icons/prestashop-icon-color.svg" width="45" alt="icon" class="mb-4" />
-                            <div class="application-content">
-                                <h3 class="h5">PrestaShop Hosting</h3>
-                                <p>Our best PrestaShop hosting platform yet develop stand-alone.</p>
-                                <div class="read-more-link">
-                                    <a href="#" target="_blank" class="d-inline-flex align-items-center btn btn-sm">
-                                        <span>Read More</span>
-                                        <i class="fa fa-arrow-right ml-2"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4">
-                        <div class="application-icon-wrap p-5 bg-white rounded-3">
-                            <img src="assets/img/icons/drupal-icon-color.svg" width="45" alt="icon" class="mb-4" />
+                            <img src="assets/img/wordpress-icon-color.svg" width="45" alt="icon" class="mb-4" />
                             <div class="application-content">
                                 <h3 class="h5">Wordpress Hosting</h3>
                                 <p>
-                                    Choose the easiest way to a reliable Drupal vertical expertise.
+                                    Get started right away with the most popular website platform.
+                                </p>
+                                <div class="read-more-link">
+                                    <a href="#" target="_blank" class="d-inline-flex align-items-center btn btn-sm">
+                                        <span>Read More</span>
+                                        <i class="fa fa-arrow-right ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4">
+                        <div class="application-icon-wrap p-5 bg-white rounded-3">
+                            <img src="assets/img/joomla-icon-color.svg" width="45" alt="icon" class="mb-4" />
+                            <div class="application-content">
+                                <h3 class="h5">Joomla Hosting</h3>
+                                <p>
+                                    Get started right away with this flexible CMS for your website.
+                                </p>
+                                <div class="read-more-link">
+                                    <a href="#" target="_blank" class="d-inline-flex align-items-center btn btn-sm">
+                                        <span>Read More</span>
+                                        <i class="fa fa-arrow-right ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4">
+                        <div class="application-icon-wrap p-5 bg-white rounded-3">
+                            <img src="assets/img/wordpress-icon-color.svg" width="45" alt="icon" class="mb-4" />
+                            <div class="application-content">
+                                <h3 class="h5">Megento Hosting</h3>
+                                <p>
+                                    Start your web store today on our Magento web hosting platform.
                                 </p>
                                 <div class="read-more-link">
                                     <a href="#" target="_blank" class="d-inline-flex align-items-center btn btn-sm">
@@ -1408,7 +721,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-2.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1426,7 +739,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-1.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1444,7 +757,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-3.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1462,7 +775,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-4.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1480,7 +793,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-2.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1498,7 +811,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-1.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1516,7 +829,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-3.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1534,7 +847,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-1.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1552,7 +865,7 @@ include_once('header.php');
                                     </div>
                                     <div class="review-author d-flex align-items-center">
                                         <div class="author-avatar">
-                                            <img src="assets/img/client-2.jpg" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
+                                            <img src="assets/img/client-3.png" width="64" alt="author" class="rounded-circle shadow-sm img-fluid mr-3" />
                                             <span>“</span>
                                         </div>
                                         <div class="review-info">
@@ -1629,7 +942,9 @@ include_once('header.php');
             </div>
         </section><!--our blog section end-->
 
-        <!--our team section start-->
+<!-- 
+        
+        our team section start
         <section class="client-section  ptb-100">
             <div class="container">
                 <div class="row justify-content-center">
@@ -1674,10 +989,10 @@ include_once('header.php');
                 </div>
             </div>
         </section>
-        <!--our team section end-->
+        our team section end
 
 
-
+ -->
 
 
 

@@ -2,9 +2,6 @@
 include_once('header.php');
 ?>
 
-
-
-
     <div class="main">
 
         <!--hero section start-->

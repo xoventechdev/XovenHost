@@ -22,7 +22,7 @@
 
     <!-- <div id="preloader">
         <div class="preloader-wrap">
-            <img src="assets/img/logo.png" alt="logo" class="img-fluid" />
+            <img src="assets/img/logo-n.png" alt="logo" class="img-fluid" />
             <div class="preloader">
                 <i>.</i>
                 <i>.</i>
@@ -38,7 +38,7 @@
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
                     <!--logo start-->
                     <a class="navbar-brand pt-0" href="index">
-                        <img src="assets/img/logo.png" alt="logo" />
+                        <img src="assets/img/logo-n.png" alt="logo" class="logoclass" />
                     </a>
                     <!--logo end-->
 
@@ -73,17 +73,17 @@
                                             <div class="menu-item-wrap py-0 p-md-3 p-lg-3">
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="shared-hosting.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/index.php?rp=/store/shared-hosting">
                                                         <div class="d-flex align-items-center">
                                                         <div class="menu-item-icon pe-3">
                                                                 <i
-                                class="fa fa-server rounded-circle primary-bg"
-                              ></i>
+                                                                    class="fa fa-server rounded-circle primary-bg"
+                                                                ></i>
                                                             </div>
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title">
-                                Shared Web Hosting
-                              </span>
+                                                                    Shared Web Hosting
+                                                                </span>
                                                                 <small class="u-header__promo-text">
                                                                     Reliable quality Starting at
                                                                     <strong>$2.99</strong>
@@ -99,7 +99,7 @@
                                             <div class="menu-item-wrap py-0 p-md-3 p-lg-3">
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="email-hosting.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/index.php?rp=/store/vps-server">
                                                         <div class="d-flex align-items-center">
                                                             <div class="menu-item-icon pe-3">
                                                                 <i
@@ -108,7 +108,7 @@
                                                             </div>
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title">
-                                Email Hosting
+                                VPS Hosting
                               </span>
                                                                 <small class="u-header__promo-text">
                                                                     First Starting at
@@ -139,7 +139,7 @@
                                             <div class="menu-item-wrap p-3">
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="domain-checker.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/cart.php?a=add&domain=register">
                                                         <div class="d-flex align-items-center pb-1">
                                                             <i class="fa fa-globe me-2 color-primary"></i>
                                                             <span class="u-header__promo-title">
@@ -154,7 +154,7 @@
                                                 <!--menu title with subtitle and icon item end-->
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="domain-transfer.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/cart.php?a=add&domain=transfer">
                                                         <div class="d-flex align-items-center pb-1">
                                                             <i
                               class="fa fa-exchange me-2 color-accent"
@@ -171,14 +171,14 @@
                                                 <!--menu title with subtitle and icon item end-->
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="domain-registration.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/cart.php?a=add&domain=register">
                                                         <div class="d-flex align-items-center pb-1">
                                                             <i
-                              class="fa fa-copyright me-2 instagram-color"
-                            ></i>
+                                                              class="fa fa-copyright me-2 instagram-color"
+                                                            ></i>
                                                             <span class="u-header__promo-title">
-                              Domain Registration
-                            </span>
+                                                                Domain Registration
+                                                            </span>
                                                         </div>
                                                         <small class="u-header__promo-text">
                                                             Register your domain name for lifetime
@@ -229,7 +229,7 @@
                                                         </small>
                                                     </li>
                                                 </ul>
-                                                <a class="btn btn-tertiary btn-block mt-3" href="#">
+                                                <a class="btn btn-tertiary btn-block mt-3" href="about-us.php">
                                                     Learn More
                                                     <span class="fa fa-angle-right ms-2"></span>
                                                 </a>
@@ -382,7 +382,7 @@
                                     <div class="menu-item-wrap py-0 p-md-3 p-lg-3">
                                         <!--menu title with subtitle and icon item start-->
                                         <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="shared-hosting.html">
+                                            <a class="title-with-icon-link" href="https://portal.xovenhost.com/index.php?rp=/store/shared-hosting">
                                                 <div class="d-flex align-items-center">
                                                     <div class="menu-item-icon pe-3">
                                                                 <i
@@ -408,7 +408,7 @@
                                             <div class="menu-item-wrap py-0 p-md-3 p-lg-3">
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="email-hosting.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/index.php?rp=/store/vps-server">
                                                         <div class="d-flex align-items-center">
                                                             <div class="menu-item-icon pe-3">
                                                                 <i
@@ -417,7 +417,7 @@
                                                             </div>
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title">
-                                Email Hosting
+                                VPS Hosting
                               </span>
                                                                 <small class="u-header__promo-text">
                                                                     First Starting at
@@ -449,7 +449,7 @@
                                             <div class="menu-item-wrap py-0 p-md-3 p-lg-3">
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="domain-checker.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/cart.php?a=add&domain=register">
                                                         <div class="d-flex align-items-center pb-1">
                                                             <i class="fa fa-globe me-2 color-primary"></i>
                                                             <span class="u-header__promo-title">
@@ -464,7 +464,7 @@
                                                 <!--menu title with subtitle and icon item end-->
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="domain-transfer.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/cart.php?a=add&domain=transfer">
                                                         <div class="d-flex align-items-center pb-1">
                                                             <i
                                                             class="fa fa-exchange me-2 color-accent"
@@ -481,7 +481,7 @@
                                                 <!--menu title with subtitle and icon item end-->
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <a class="title-with-icon-link" href="domain-registration.html">
+                                                    <a class="title-with-icon-link" href="https://portal.xovenhost.com/cart.php?a=add&domain=register">
                                                         <div class="d-flex align-items-center pb-1">
                                                             <i
                                                     class="fa fa-copyright me-2 instagram-color"
@@ -539,7 +539,7 @@
                                                         </small>
                                                     </li>
                                                 </ul>
-                                                <a class="btn btn-tertiary btn-block mt-3" href="#">
+                                                <a class="btn btn-tertiary btn-block mt-3" href="about-us.php">
                                                     Learn More
                                                     <span class="fa fa-angle-right ms-2"></span>
                                                 </a>

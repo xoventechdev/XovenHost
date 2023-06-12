@@ -1,3 +1,12 @@
 .searchbtn{
     background-color: #f67a3c;
 }
+
+.logoclass{
+    margin-top: 10px;
+    height: 80px;
+}
+
+.custom-nav-link{
+    font-size: 15px;
+}

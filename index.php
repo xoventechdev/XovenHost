@@ -399,7 +399,7 @@ include_once('header.php');
                     </div>
                     <div class="col-12">
                         <div class="support-cta text-center mt-5">
-                            <a href="pricing-comparision.html" target="_blank">
+                            <a href="pricing-specifications.php">
                                 <h5 class="mb-1">
                                     <span class="fa fa-rotate-left color-primary me-2"></span>Compare Hosting Plans
                                 </h5>

@@ -37,7 +37,7 @@
             <div class="container ">
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
                     <!--logo start-->
-                    <a class="navbar-brand pt-0" href="index">
+                    <a class="navbar-brand pt-0" href="index.php">
                         <img src="assets/img/logo-n.png" alt="logo" class="logoclass" />
                     </a>
                     <!--logo end-->

@@ -79,6 +79,7 @@ include_once('header.php');
                         }else if(!sizeof(dns_get_record($domainName)) > 0){
                             echo dns_get_record($domainName);
                             var_dump(dns_get_record($domainName));
+                            print_r(dns_get_record($domainName));
                             ?>
                             <div class="alert alert-primary" role="alert">
                             <?php echo $domainName; ?></span> is available!
@@ -86,6 +87,7 @@ include_once('header.php');
                         <?php } else if(sizeof(dns_get_record($domainName)) > 0){
                             echo dns_get_record($domainName);
                             var_dump(dns_get_record($domainName));
+                            print_r(dns_get_record($domainName));
                             ?>
                             <div class="alert alert-warning" role="alert">
                             <?php echo $domainName; ?></span> is registered!

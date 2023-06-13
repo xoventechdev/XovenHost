@@ -172,7 +172,7 @@ include_once('header.php');
                                 <span class="p-icon">
               <i class="fa fa-rocket color-secondary"></i>
             </span>
-                                <div class="h2 mb-0 text-dark"> $5.99 <span class="price-cycle h5">/mo</span>
+                                <div class="h2 mb-0 text-dark"> $1.00 <span class="price-cycle h5">/mo</span>
                                 </div>
                             </div>
                             <div class="pricing-info">
@@ -184,7 +184,7 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-hdd me-2"></i>
                                         <p>
-                                            <strong>5GB</strong> SSD Disk Space
+                                            <strong>1GB</strong> SSD Disk Space
                                         </p>
                                         <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
                       data-bs-title="SSD based cloud storage for awesome performance and reliability for your website.">
@@ -194,13 +194,13 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-route me-2"></i>
                                         <p>
-                                            <strong>Unmetered</strong> Brandwidth
+                                            <strong>100GB/month</strong> Brandwidth
                                         </p>
                                     </li>
                                     <li>
                                         <i class="fa fa-safari me-2"></i>
                                         <p>
-                                            <strong>Host 2</strong> Websites Hosted
+                                            <strong>Unlimited</strong> Websites Hosted
                                         </p>
                                     </li>
                                     <li>
@@ -216,12 +216,12 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-globe me-2"></i>
                                         <p>
-                                            <strong>Free</strong> Domain Name
+                                            <strong>Free Sub-Domain</strong> Name
                                         </p>
-                                        <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
+                                        <!-- <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
                       data-bs-title="On annual plans or higher. First year only.">
                   <i class="fa fa-info-circle ms-1"></i>
-                </span>
+                </span> -->
                                     </li>
                                     <li>
                                         <i class="fa fa-headset me-2"></i>
@@ -249,7 +249,7 @@ include_once('header.php');
                                 <span class="p-icon">
               <i class="fa fa-space-shuttle color-secondary"></i>
             </span>
-                                <div class="h2 mb-0 text-dark"> $8.99 <span class="price-cycle h5">/mo</span>
+                                <div class="h2 mb-0 text-dark"> $1.25 <span class="price-cycle h5">/mo</span>
                                 </div>
                             </div>
                             <div class="pricing-info">
@@ -261,7 +261,7 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-hdd me-2"></i>
                                         <p>
-                                            <strong>5GB</strong> SSD Disk Space
+                                            <strong>2GB</strong> SSD Disk Space
                                         </p>
                                         <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
                       data-bs-title="SSD based cloud storage for awesome performance and reliability for your website.">
@@ -271,13 +271,13 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-route me-2"></i>
                                         <p>
-                                            <strong>Unmetered</strong> Brandwidth
+                                            <strong>200GB/month</strong> Brandwidth
                                         </p>
                                     </li>
                                     <li>
                                         <i class="fa fa-safari me-2"></i>
                                         <p>
-                                            <strong>Host 2</strong> Websites Hosted
+                                            <strong>Unlimited</strong> Websites Hosted
                                         </p>
                                     </li>
                                     <li>
@@ -293,12 +293,12 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-globe me-2"></i>
                                         <p>
-                                            <strong>Free</strong> Domain Name
+                                            <strong>Free Sub-Domain</strong> Name
                                         </p>
-                                        <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
+                                        <!-- <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
                       data-bs-title="On annual plans or higher. First year only.">
                   <i class="fa fa-info-circle ms-1"></i>
-                </span>
+                </span> -->
                                     </li>
                                     <li>
                                         <i class="fa fa-headset me-2"></i>
@@ -326,7 +326,7 @@ include_once('header.php');
                                 <span class="p-icon">
               <i class="fa fa-medal color-secondary"></i>
             </span>
-                                <div class="h2 mb-0 text-dark"> $12.99 <span class="price-cycle h5">/mo</span>
+                                <div class="h2 mb-0 text-dark"> $2.50 <span class="price-cycle h5">/mo</span>
                                 </div>
                             </div>
                             <div class="pricing-info">
@@ -348,13 +348,13 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-route me-2"></i>
                                         <p>
-                                            <strong>Unmetered</strong> Brandwidth
+                                            <strong>500GB/month</strong> Brandwidth
                                         </p>
                                     </li>
                                     <li>
                                         <i class="fa fa-safari me-2"></i>
                                         <p>
-                                            <strong>Host 2</strong> Websites Hosted
+                                            <strong>Unlimited </strong> Websites Hosted
                                         </p>
                                     </li>
                                     <li>
@@ -370,12 +370,12 @@ include_once('header.php');
                                     <li>
                                         <i class="fa fa-globe me-2"></i>
                                         <p>
-                                            <strong>Free</strong> Domain Name
+                                            <strong>Free Sub-Domain</strong> Name
                                         </p>
-                                        <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
+                                        <!-- <span class="text-under-line" data-bs-toggle="tooltip" data-bs-placement="top" title=""
                       data-bs-title="On annual plans or higher. First year only.">
                   <i class="fa fa-info-circle ms-1"></i>
-                </span>
+                </span> -->
                                     </li>
                                     <li>
                                         <i class="fa fa-headset me-2"></i>

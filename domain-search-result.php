@@ -76,11 +76,15 @@ include_once('header.php');
                         
                         if($domainName == ""){
 
-                        }else if(!sizeof(dns_get_record($domainName)) > 0){?>
+                        }else if(!sizeof(dns_get_record($domainName)) > 0){
+                            echo dns_get_record($domainName);
+                            ?>
                             <div class="alert alert-primary" role="alert">
                             <?php echo $domainName; ?></span> is available!
                             </div>
-                        <?php } else if(sizeof(dns_get_record($domainName)) > 0){?>
+                        <?php } else if(sizeof(dns_get_record($domainName)) > 0){
+                            echo dns_get_record($domainName);
+                            ?>
                             <div class="alert alert-warning" role="alert">
                             <?php echo $domainName; ?></span> is registered!
                             </div>

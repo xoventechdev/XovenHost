@@ -77,16 +77,27 @@ include_once('header.php');
                         if($domainName == ""){
 
                         }else if(!sizeof(dns_get_record($domainName)) > 0){
-                            echo dns_get_record($domainName);
+
+                            var dns_array = dns_get_record($domainName);
+                            if(dns_array["host"] == $domainName){
+                                <div class="alert alert-primary" role="alert">
+                                <?php echo $domainName; ?></span> is available!
+                                </div>
+                            }else {
+                                <div class="alert alert-warning" role="alert">
+                            <?php echo $domainName; ?></span> is registered!
+                            </div>
+                            }
+
                             var_dump(dns_get_record($domainName));
+                            echo "<br/><br/><br/>";
                             print_r(dns_get_record($domainName));
                             ?>
-                            <div class="alert alert-primary" role="alert">
-                            <?php echo $domainName; ?></span> is available!
-                            </div>
+                            
                         <?php } else if(sizeof(dns_get_record($domainName)) > 0){
                             echo dns_get_record($domainName);
                             var_dump(dns_get_record($domainName));
+                            echo "<br/><br/><br/>";
                             print_r(dns_get_record($domainName));
                             ?>
                             <div class="alert alert-warning" role="alert">

@@ -77,6 +77,8 @@ include_once('header.php');
                         if($domainName == ""){
 
                         }else if(!sizeof(dns_get_record($domainName)) > 0){
+                            $domainarray = $domainName.".afterserver.com";
+                            echo $domainarray;
                             ?>
                             <div class="alert alert-primary" role="alert">
                                 <?php echo $domainName; ?></span> is available!
@@ -84,7 +86,8 @@ include_once('header.php');
                         <?php } else if(sizeof(dns_get_record($domainName)) > 0){
                             $dns_array = dns_get_record($domainName);
                             $domainarray = $domainName.".afterserver.com";
-                            if($dns_array["host"] == $domainarray){
+                            echo $domainarray;
+                            if($dns_array['host'] == $domainarray){
                                 ?>
                                 <div class="alert alert-primary" role="alert">
                                     <?php echo $domainName; ?></span> is available!

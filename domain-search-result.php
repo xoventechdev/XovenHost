@@ -18,6 +18,21 @@ include_once('header.php');
                         <p class="lead">Up to 50% Off domain and hosting, Starting from $2.99/month, free SSL certificate, 24/7/365 support, money back guarantee.</p>
 
                         <?php 
+
+                                    $age = 17;  
+                                    $ageee = "Indian";  
+                                    $nationality = "I1ndian";  
+                                    //applying conditions on nationality and age  
+                                    if ($nationality == $ageee){  
+                                        if ($age >= 18) {  
+                                            echo "! Eligible to give vote";  
+                                        }  
+                                        else {    
+                                            echo "! Not eligible to give vote";  
+                                        }  
+                                    }  
+
+
                                 $from       = !empty($_GET['from']) ? htmlspecialchars($_GET['from'], ENT_QUOTES, 'UTF-8') : '';
                                 $domain     = !empty($_GET['domain']) ? htmlspecialchars($_GET['domain'], ENT_QUOTES, 'UTF-8') : '';
                                 $domainType = !empty($_GET['domainType']) ? htmlspecialchars($_GET['domainType'], ENT_QUOTES, 'UTF-8') : '';
@@ -87,6 +102,7 @@ include_once('header.php');
                             $dns_array = dns_get_record($domainName);
                             $domainarray = $domainName.".afterserver.com";
                             echo $domainarray;
+                            echo$$dns_array['host'];
                             if($dns_array['host'] == $domainarray){
                                 ?>
                                 <div class="alert alert-primary" role="alert">

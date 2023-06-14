@@ -77,23 +77,26 @@ include_once('header.php');
                         if($domainName == ""){
 
                         }else if(!sizeof(dns_get_record($domainName)) > 0){
-
-                            $dns_array = dns_get_record($domainName);
-                            if(!$dns_array["host"] == $domainName){
-                                ?>
-                                <div class="alert alert-primary" role="alert">
+                            ?>
+                            <div class="alert alert-primary" role="alert">
                                 <?php echo $domainName; ?></span> is available!
                                 </div>
-                                <?php
-                            }
-                           
-                            
-                            var_dump(dns_get_record($domainName));
-                            echo "<br/><br/><br/>";
-                            print_r(dns_get_record($domainName));
-                            ?>
-                            
                         <?php } else if(sizeof(dns_get_record($domainName)) > 0){
+                            $dns_array = dns_get_record($domainName);
+                            $domainarray = $domainName.".afterserver.com";
+                            if($dns_array["host"] == $domainarray){
+                                ?>
+                                <div class="alert alert-primary" role="alert">
+                                    <?php echo $domainName; ?></span> is available!
+                                    </div>
+                            <?php
+                            }else{
+                                ?>
+                            <div class="alert alert-warning" role="alert">
+                            <?php echo $domainName; ?></span> is registered!
+                            </div>
+                            <?php 
+                            }
                             echo dns_get_record($domainName);
                             var_dump(dns_get_record($domainName));
                             echo "<br/><br/><br/>";

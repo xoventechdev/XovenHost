@@ -72,54 +72,32 @@ include_once('header.php');
                                 </div>
                             </div>
                         </form>
+                        
                         <div class="domain-list-wrap text-center mt-4">
-                            <ul class="list-inline domain-search-list">
-                                <li class="list-inline-item border rounded bg-white text-black"><a href="#"><img src="assets/img/com.png" alt="com" width="60" class="img-fluid"> <span>$8.99</span></a>
-                                </li>
-                                <li class="list-inline-item border rounded bg-white text-black"><a href="#"><img src="assets/img/xyz.png" alt="com" width="60" class="img-fluid"> <span>$0.99</span></a>
-                                </li>
-                                <li class="list-inline-item border rounded bg-white text-black"><a href="#"><img src="assets/img/net.png" alt="com" width="60" class="img-fluid"> <span>$4.99</span></a>
-                                </li>
-                                <li class="list-inline-item border rounded bg-white text-black"><a href="#"><img src="assets/img/org.png" alt="com" width="60" class="img-fluid"> <span>$2.99</span></a>
-                                </li>
-                                <li class="list-inline-item border rounded bg-white text-black"><a href="#"><img src="assets/img/store.png" alt="com" width="60" class="img-fluid"> <span>$0.99</span></a>
-                                </li>
-                            </ul>
-                        </div>
+                                <ul class="list-inline domain-search-list">
+                                    <li class="list-inline-item bg-white border rounded text-black"><a href="#"><img src="assets/img/com.png" alt="com" width="70" class="img-fluid"> <span>$12.50</span></a>
+                                    </li>
+                                    <li class="list-inline-item bg-white border rounded text-black"><a href="#"><img src="assets/img/xyz.png" alt="com" width="70" class="img-fluid"> <span>$15.50</span></a>
+                                    </li>
+                                    <li class="list-inline-item bg-white border rounded text-black"><a href="#"><img src="assets/img/net.png" alt="com" width="70" class="img-fluid"> <span>$14.50</span></a>
+                                    </li>
+                                    <li class="list-inline-item bg-white border rounded text-black"><a href="#"><img src="assets/img/org.png" alt="com" width="70" class="img-fluid"> <span>$14.50</span></a>
+                                    </li>
+                                    <li class="list-inline-item bg-white border rounded text-black"><a href="#"><img src="assets/img/store.png" alt="com" width="70" class="img-fluid"> <span>$69.50</span></a>
+                                    </li>
+                                </ul>
+                            </div>
                         <div class="domain-list-wrap text-center mt-4">
                         <?php
                         
                         if($domainName == ""){
 
-                        }else if(!sizeof(dns_get_record($domainName)) > 0){
-                            $domainarray = $domainName.".afterserver.com";
-                            echo $domainarray;
+                        }else if(!sizeof(dns_get_record($domainName, DNS_A)) > 0){
                             ?>
                             <div class="alert alert-primary" role="alert">
                                 <?php echo $domainName; ?></span> is available!
                                 </div>
-                        <?php } else if(sizeof(dns_get_record($domainName)) > 0){
-                            $dns_array = dns_get_record($domainName);
-                            $domainarray = $domainName.".afterserver.com";
-                            echo $domainarray;
-                            echo$$dns_array['host'];
-                            if($dns_array['host'] == $domainarray){
-                                ?>
-                                <div class="alert alert-primary" role="alert">
-                                    <?php echo $domainName; ?></span> is available!
-                                    </div>
-                            <?php
-                            }else{
-                                ?>
-                            <div class="alert alert-warning" role="alert">
-                            <?php echo $domainName; ?></span> is registered!
-                            </div>
-                            <?php 
-                            }
-                            echo dns_get_record($domainName);
-                            var_dump(dns_get_record($domainName));
-                            echo "<br/><br/><br/>";
-                            print_r(dns_get_record($domainName));
+                        <?php } else if(sizeof(dns_get_record($domainName, DNS_A)) > 0){
                             ?>
                             <div class="alert alert-warning" role="alert">
                             <?php echo $domainName; ?></span> is registered!
@@ -196,7 +174,7 @@ include_once('header.php');
                 <div class="col-md-12 col-lg-9">
                     <div class="content-with-sidebar">
                         <!--alert table start-->
-                        <?php if(!sizeof(dns_get_record($domainName)) > 0){?>
+                        <?php if(!sizeof(dns_get_record($domainName, DNS_A)) > 0){?>
                         <!-- <?php //if($from != 'transfer' && empty($domainInfo)) {?> -->
                         <table class="table vps-hosting-pricing-table domain-search-result-table alert-table mb-5">
                             <tbody>
@@ -205,7 +183,7 @@ include_once('header.php');
                                     <br><small>Get this domain now </small></td>
                                 <td>
                                     <p>
-                                        <span class="rate">$3.95<span>/month</span></span>
+                                        <span class="rate">$12.50<span>/month</span></span>
                                         <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 30%</span></span>
                                     </p>
                                 </td>
@@ -215,7 +193,7 @@ include_once('header.php');
                             </tr>
                             </tbody>
                         </table>
-                        <?php } else if(sizeof(dns_get_record($domainName)) > 0){?>
+                        <?php } else if(sizeof(dns_get_record($domainName, DNS_A)) > 0){?>
                         <!-- <?php //} else if($from == 'transfer' && !empty($domainInfo)) {?> -->
                         <table class="table vps-hosting-pricing-table domain-search-result-table alert-table mb-5">
                             <tbody>
@@ -224,7 +202,7 @@ include_once('header.php');
                                     <br><small>Transfer your domain now </small></td>
                                 <td>
                                     <p>
-                                        <span class="rate">$3.95<span>/month</span></span>
+                                        <span class="rate">$12.50<span>/month</span></span>
                                         <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 30%</span></span>
                                     </p>
                                 </td>
@@ -234,14 +212,14 @@ include_once('header.php');
                             </tr>
                             </tbody>
                         </table>
-                        <?php } else if(!sizeof(dns_get_record($domainName)) > 0){?>
+                        <?php } else if(!sizeof(dns_get_record($domainName, DNS_A)) > 0){?>
                         <!-- <?php //} else if($from != 'transfer' && !empty($domainInfo)){?> -->
                         <div class="row">
                             <div class="col-12 pb-3">
                                 <div class="alert alert-danger">Domain(<?php echo $domainName; ?>) is not available. </div>
                             </div>
                         </div>
-                        <?php } else if(sizeof(dns_get_record($domainName)) > 0){?>
+                        <?php } else if(sizeof(dns_get_record($domainName, DNS_A)) > 0){?>
 
                         <!-- <?php //} else if($from == 'transfer' && empty($domainInfo)){?> -->
                         <div class="row">
@@ -258,66 +236,66 @@ include_once('header.php');
                                 <td data-value="Available"><?php echo $domain ? $domain : 'xovenhost'; ?><span class="color-primary">.com</span></td>
                                 <td data-value="Price">
                                     <p>
-                                        <span class="rate">$3.95<span>/month</span></span>
-                                        <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 30%</span></span>
+                                        <span class="rate">$12.50<span>/month</span></span>
+                                        <!-- <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 30%</span></span> -->
                                     </p>
                                 </td>
                                 <td>
-                                    <a href="" class="btn btn-brand-01 btn-sm">Add to Cart</a>
+                                    <a href="https://portal.xovenhost.com/cart.php?systpl=xovenhost&a=add&domain=register&query=<?php echo $domainName; ?>" class="btn btn-brand-01 btn-sm">Add to Cart</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row">
                                 <td data-value="Available"><?php echo $domain ? $domain : 'xovenhost'; ?><span class="color-primary">.net</span></td>
                                 <td data-value="Price">
                                     <p>
-                                        <span class="rate">$8.95<span>/month</span></span>
+                                        <span class="rate">$14.50<span>/month</span></span>
                                         <span class="pricing-onsale">On sale - <span class="badge color-1 color-1-bg">Save 50%</span></span>
                                     </p>
                                 </td>
                                 <td>
-                                    <a href="" class="btn btn-brand-01 btn-sm">Add to Cart</a>
+                                <a href="https://portal.xovenhost.com/cart.php?systpl=xovenhost&a=add&domain=register&query=<?php echo $domainName; ?>" class="btn btn-brand-01 btn-sm">Add to Cart</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row">
                                 <td data-value="Available"><?php echo $domain ? $domain : 'xovenhost'; ?><span class="color-primary">.org</span></td>
                                 <td data-value="Price">
                                     <p>
-                                        <span class="rate">$12.95<span>/month</span></span>
+                                        <span class="rate">$14.50<span>/month</span></span>
                                         <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 10%</span></span>
                                     </p>
                                 </td>
                                 <td>
-                                    <a href="" class="btn btn-brand-01 btn-sm">Add to Cart</a>
+                                <a href="https://portal.xovenhost.com/cart.php?systpl=xovenhost&a=add&domain=register&query=<?php echo $domainName; ?>" class="btn btn-brand-01 btn-sm">Add to Cart</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row">
                                 <td data-value="Available"><?php echo $domain ? $domain : 'xovenhost'; ?><span class="color-primary">.info</span></td>
                                 <td data-value="Price">
-                                    <p><span class="rate">$15.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                    <p><span class="rate">$22.50<span>/month</span></span><span class="pricing-onsale">On sale - <span
                                             class="badge color-3 color-3-bg">Save 30%</span></span></p>
                                 </td>
                                 <td>
-                                    <a href="" class="btn btn-brand-01 btn-sm">Add to Cart</a>
+                                <a href="https://portal.xovenhost.com/cart.php?systpl=xovenhost&a=add&domain=register&query=<?php echo $domainName; ?>" class="btn btn-brand-01 btn-sm">Add to Cart</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row">
                                 <td data-value="Available"><?php echo $domain ? $domain : 'xovenhost'; ?><span class="color-primary">.store</span></td>
                                 <td data-value="Price">
-                                    <p><span class="rate">$23.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                    <p><span class="rate">$69.50<span>/month</span></span><span class="pricing-onsale">On sale - <span
                                             class="badge color-5 color-5-bg">Save 40%</span></span></p>
                                 </td>
                                 <td>
-                                    <a href="" class="btn btn-brand-01 btn-sm">Add to Cart</a>
+                                <a href="https://portal.xovenhost.com/cart.php?systpl=xovenhost&a=add&domain=register&query=<?php echo $domainName; ?>" class="btn btn-brand-01 btn-sm">Add to Cart</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row">
                                 <td data-value="Available"><?php echo $domain ? $domain : 'xovenhost'; ?><span class="color-primary">.online</span></td>
                                 <td data-value="Price">
-                                    <p><span class="rate">$29.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                    <p><span class="rate">$44.50<span>/month</span></span><span class="pricing-onsale">On sale - <span
                                             class="badge color-3 color-3-bg">Save 10%</span></span></p>
                                 </td>
                                 <td>
-                                    <a href="" class="btn btn-brand-01 btn-sm">Add to Cart</a>
+                                <a href="https://portal.xovenhost.com/cart.php?systpl=xovenhost&a=add&domain=register&query=<?php echo $domainName; ?>" class="btn btn-brand-01 btn-sm">Add to Cart</a>
                                 </td>
                             </tr>
                             </tbody>

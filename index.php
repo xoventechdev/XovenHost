@@ -135,15 +135,15 @@ include_once('header.php');
                             </form>
                             <div class="domain-list-wrap text-center">
                                 <ul class="list-inline domain-search-list">
-                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/com.png" alt="com" width="70" class="img-fluid"> <span>$8.99</span></a>
+                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/com.png" alt="com" width="70" class="img-fluid"> <span>$12.50</span></a>
                                     </li>
-                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/xyz.png" alt="com" width="70" class="img-fluid"> <span>$0.99</span></a>
+                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/xyz.png" alt="com" width="70" class="img-fluid"> <span>$15.50</span></a>
                                     </li>
-                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/net.png" alt="com" width="70" class="img-fluid"> <span>$4.99</span></a>
+                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/net.png" alt="com" width="70" class="img-fluid"> <span>$14.50</span></a>
                                     </li>
-                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/org.png" alt="com" width="70" class="img-fluid"> <span>$2.99</span></a>
+                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/org.png" alt="com" width="70" class="img-fluid"> <span>$14.50</span></a>
                                     </li>
-                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/store.png" alt="com" width="70" class="img-fluid"> <span>$0.99</span></a>
+                                    <li class="list-inline-item bg-white border rounded"><a href="#"><img src="assets/img/store.png" alt="com" width="70" class="img-fluid"> <span>$69.50</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -629,9 +629,9 @@ include_once('header.php');
                         </div>
                         <div class="support-action d-inline-flex flex-wrap">
                             <a href="/cdn-cgi/l/email-protection#bccfc9ccccd3cec8fcc5d3c9ced8d3d1ddd5d292dfd3d1" class="me-3 text-info"><i class="fa fa-comment me-1 text-tertiary"></i>
-                                <span><span class="__cf_email__" data-cfemail="6a191f1a1a05181e2a13051f180e05070b030444090507">[email&#160;protected]</span></span></a>
-                            <a href="tel:+00123456789" class="mb-0 text-info"><i class="fa fa-phone-alt me-1 text-tertiary"></i>
-                                <span>+00123456789</span></a>
+                                <span><span class="__cf_email__" data-cfemail="6a191f1a1a05181e2a13051f180e05070b030444090507">support@xovenhost.com</span></span></a>
+                            <!-- <a href="tel:+00123456789" class="mb-0 text-info"><i class="fa fa-phone-alt me-1 text-tertiary"></i>
+                                <span>+00123456789</span></a> -->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 d-none d-lg-block">
